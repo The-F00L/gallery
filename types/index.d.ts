@@ -49,6 +49,12 @@ export interface Social {
    */
   twitter?: string;
 
+
+  /**
+   * Exercism
+   */ 
+  exercism?: string
+
   /**
    * Mastodon
    */
