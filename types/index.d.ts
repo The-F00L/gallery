@@ -56,6 +56,11 @@ export interface Social {
   exercism?: string
 
   /**
+   * TryHackMe 
+   */ 
+  tryhackme?: string
+
+  /**
    * Mastodon
    */
   mastodon?: string;

@@ -247,6 +247,7 @@ GitProfile.propTypes = {
       linkedin: PropTypes.string,
       twitter: PropTypes.string,
       exercism: PropTypes.string,
+      tryhackme: PropTypes.string,
       mastodon: PropTypes.string,
       facebook: PropTypes.string,
       instagram: PropTypes.string,

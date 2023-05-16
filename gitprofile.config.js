@@ -14,6 +14,7 @@ const config = {
     linkedin: '',
     twitter: 'Th3_F00L',
     exercism: 'The-F00L',
+    tryhackme: 'TheF00L',
     mastodon: '',
     facebook: '',
     instagram: '',

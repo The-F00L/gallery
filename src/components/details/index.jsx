@@ -7,6 +7,7 @@ import {
 import { 
   SiTwitter,
   SiExercism,
+  SiTryhackme,
 } from 'react-icons/si';
 import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
@@ -134,6 +135,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Exercism:"
                   value={social.exercism}
                   link={`https://exercism.org/profiles/${social.exercism}`}
+                />
+              )}
+              {social?.tryhackme && (
+                <ListItem
+                  icon={<SiTryhackme />}
+                  title="TryHackMe:"
+                  value={social.tryhackme}
+                  link={`https://tryhackme.com/p/${social.tryhackme}`}
                 />
               )}
               {social?.mastodon && (
