@@ -15,6 +15,7 @@ const config = {
     twitter: 'Th3_F00L',
     exercism: 'The-F00L',
     tryhackme: 'TheF00L',
+    codewars: 'The-F00L',
     mastodon: '',
     facebook: '',
     instagram: '',

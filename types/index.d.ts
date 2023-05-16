@@ -61,6 +61,11 @@ export interface Social {
   tryhackme?: string
 
   /**
+   * CodeWars
+   */ 
+  codewars?: string
+
+  /**
    * Mastodon
    */
   mastodon?: string;
