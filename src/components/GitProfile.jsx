@@ -189,14 +189,14 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         education={sanitizedConfig.education}
                       />
-                      <Certification
-                        loading={loading}
-                        certifications={sanitizedConfig.certifications}
-                      />
                     </div>
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <Certification
+                        loading={loading}
+                        certifications={sanitizedConfig.certifications}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}

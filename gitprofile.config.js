@@ -52,14 +52,249 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+        name : 'Harvard CS50T',
+        body : 'body',
+        year : 'year',
+        link : "certs/CS50T.png"
     },
-  ], */
+    {
+        name : "NahamCon2022 CTF",
+        body : 'body',
+        year : 'year',
+        link : "certs/nahamcon2022_teams_cert.png"
+    },
+    {
+        name : "Advent of Cyber 2021",
+        body : 'body',
+        year : 'year',
+        link : "certs/THM_AoC_2021.png"
+    },
+    {
+        name : "Python Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_python_basic.png"
+    },
+    {
+        name : "Python",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Python.png"
+    },
+    {
+        name : "Intro to Machine Learning",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intro_to_Machine_Learning.png"
+    },
+    {
+        name : "Java Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_java_basic.png"
+    },
+    {
+        name : "Responsive Web Design",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_Responsive_Web_Design.png"
+    },
+    {
+        name : "Pandas",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Pandas.png"
+    },
+    {
+        name : "JavaScript Algorithms and Data Structures",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_JavaScript_Algorithms_and_Data_Structures.png"
+    },
+    {
+        name : "C# Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_csharp_basic.png"
+    },
+    {
+        name : "Cyber Apocalypse 2021 CTF",
+        body : 'body',
+        year : 'year',
+        link : "certs/CTF-Cyber-Apocalypse-TheF00L.jpg"
+    },
+    {
+        name : "Javascript Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_javascript_basic.png"
+    },
+    {
+        name : "Intro to Game AI and Reinforcement Learning",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intro_to_Game_AI_and_Reinforcement_Learning.png"
+    },
+    {
+        name : "Back End Development and APIs",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_Back_End_Development_and_APIs.png"
+    },
+    {
+        name : "Intro to AI ethics",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intro_to_AI_Ethics.png"
+    },
+    {
+        name : "Scientific Computing with Python",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_Scientific_Computing_with_Python.png"
+    },
+    {
+        name : "Problem Solving Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_problem_solving_basic.png"
+    },
+    {
+        name : "SQL Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_sql_basic.png"
+    },
+    {
+        name : "SQL Advanced",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Advanced_SQL.png"
+    },
+    {
+        name : "Data Analysis with Python",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_Data_Analysis_with_Python.png"
+    },
+    {
+        name : "Computer Vision",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Computer_Vision.png"
+    },
+    {
+        name : "Data Visualization",
+        body : 'body',
+        year : 'year',
+        link : "certs/freeCodeCamp_Data_Visualization.png"
+    },
+    {
+        name : "CSS",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_css.png"
+    },
+    {
+        name : "Javascript Intermediate",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_javascript_intermediate.png"
+    },
+    {
+        name : "Node Intermediate",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_node_intermediate.png"
+    },
+    {
+        name : "Time Series",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Time_Series.png"
+    },
+    {
+        name : "Problem Solving Intermediate",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_problem_solving_intermediate.png"
+    },
+    {
+        name : "React Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_react_basic.png"
+    },
+    {
+        name : "Intro to Deep Learning",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intro_to_Deep_Learning.png"
+    },
+
+    {
+        name : "Rest API Intermediate",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_REST_API_intermediate.png"
+    },
+    {
+        name : "SQL intermediate",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_sql_intermediate.png"
+    },
+    {
+        name : "Data Cleaning",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Data_Cleaning.png"
+    },
+    {
+        name : "Feature Engineering",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Feature_Engineering.png"
+    },
+    {
+        name : "Data Visualization",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Data_Visualization.png"
+    },
+    {
+        name : "Go Basic",
+        body : 'body',
+        year : 'year',
+        link : "certs/hacker_rank_go_basic.png"
+    },
+    {
+        name : "Geospatial Analysis",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Geospatial_Analysis.png"
+    },
+    {
+        name : "Intermediate Machine Learning",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intermediate_Machine_Learning.png"
+    },
+    {
+        name : "Intro to SQL",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Intro_to_SQL.png"
+    },
+    {
+        name : "Machine Learning Explainability",
+        body : 'body',
+        year : 'year',
+        link : "certs/kaggle_Machine_Learning_Explainability.png"
+    },
+  ],
   education: [
     {
       institution: 'Petrik Lajos Bilingual Vocational School of Chemistry, Environmental Protection and Information Technology',

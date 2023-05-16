@@ -1,5 +1,4 @@
 import { skeleton } from '../../helpers/utils';
-import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 const ListItem = ({ year, name, body, link }) => (
@@ -42,6 +41,26 @@ const Certification = ({ certifications, loading }) => {
     return array;
   };
 
+  const renderCerts = () => {
+    return certifications.map((item, index) => (
+        <div className="flex justify-between flex-col p-8 h-full w-full" key={`${index}`}>
+          <div>
+            <div className="flex items-center">
+              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
+                <span>{item.name}</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src={`${item.link}`} alt={`${item.name}`} />
+          </div>
+          <div className="flex justify-between text-sm text-base-content text-opacity-60 truncate">
+          </div>
+        </div>
+    ));
+  };
+
+
   return (
     <>
       {certifications?.length !== 0 && (
@@ -53,28 +72,22 @@ const Certification = ({ certifications, loading }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Certification
+                    Certifications
                   </span>
                 )}
               </h5>
             </div>
             <div className="text-base-content text-opacity-60">
-              <ol className="relative border-l border-base-300 border-opacity-30 my-2 mx-4">
-                {loading ? (
-                  renderSkeleton()
-                ) : (
-                  <Fragment>
-                    {certifications.map((certification, index) => (
-                      <ListItem
-                        key={index}
-                        year={`${certification.year}`}
-                        name={certification.name}
-                        body={certification.body}
-                        link={certification.link ? certification.link : null}
-                      />
-                    ))}
-                  </Fragment>
-                )}
+              <ol className="relative  my-2 mx-4">
+                  {loading ? (
+                    skeleton({ width: 'w-10', height: 'h-5' })
+                  ) : (
+                    <div className="col-span-2">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {loading || !certifications ? renderSkeleton() : renderCerts()}
+                      </div>
+                    </div>
+                  )}
               </ol>
             </div>
           </div>
