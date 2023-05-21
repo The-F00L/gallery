@@ -178,8 +178,19 @@ const GitProfile = ({ config }) => {
                         social={sanitizedConfig.social}
                       />
                       <Skill
+                        title="Main Tech Stack"
                         loading={loading}
                         skills={sanitizedConfig.skills}
+                      />
+                      <Skill
+                        title="Side Tech Stack"
+                        loading={loading}
+                        skills={sanitizedConfig.sideskills}
+                      />
+                      <Skill
+                        title="Legacy Tech Stack"
+                        loading={loading}
+                        skills={sanitizedConfig.legacyskills}
                       />
                       <Experience
                         loading={loading}

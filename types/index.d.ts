@@ -292,6 +292,16 @@ export interface Config {
   skills?: Array<string>;
 
   /**
+   * Side Skill list
+   */ 
+  sideskills?: Array<string>;
+
+  /**
+   * Side Skill list
+   */ 
+  legacykills?: Array<string>;
+
+  /**
    * Experience list
    */
   experiences?: Array<Experience>;

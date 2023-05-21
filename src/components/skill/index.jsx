@@ -1,7 +1,7 @@
 import { skeleton } from '../../helpers/utils';
 import PropTypes from 'prop-types';
 
-const Skill = ({ loading, skills }) => {
+const Skill = ({ title, loading, skills }) => {
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < 12; index++) {
@@ -26,7 +26,7 @@ const Skill = ({ loading, skills }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Tech Stack
+                    {title}  
                   </span>
                 )}
               </h5>
