@@ -95,6 +95,12 @@ const config = {
         link : "certs/THM_AoC_2021.png"
     },
     {
+        name : "NahamCon2021 CTF",
+        body : 'body',
+        year : 'year',
+        link : "certs/nahamcon_2021.jpeg"
+    },
+    {
         name : "Python Basic",
         body : 'body',
         year : 'year',
