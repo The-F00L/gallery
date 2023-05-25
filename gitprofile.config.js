@@ -68,11 +68,18 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Avatao',
+      position: 'Content Development Team Lead',
+      from: 'September 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://avatao.com',
+    },
+    {
+      company: 'Avatao',
+      position: 'Content Developer',
+      from: 'May 2022',
+      to: 'September 2022',
+      companyLink: 'https://avatao.com',
     },
   ],
   certifications: [
