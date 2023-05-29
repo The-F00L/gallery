@@ -90,6 +90,12 @@ const config = {
         link : "certs/CS50T.png"
     },
     {
+        name : 'Advent of Cyber 2022',
+        body : 'body',
+        year : 'year',
+        link : "certs/THM_AoC_2022.png"
+    },
+    {
         name : "NahamCon2022 CTF",
         body : 'body',
         year : 'year',
