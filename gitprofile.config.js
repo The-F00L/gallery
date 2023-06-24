@@ -84,6 +84,12 @@ const config = {
   ],
   certifications: [
     {
+        name : "NahamCon2023 CTF",
+        body : 'body',
+        year : 'year',
+        link : "certs/nahamcon_2023.png"
+    },
+    {
         name : 'Harvard CS50T',
         body : 'body',
         year : 'year',
